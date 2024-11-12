@@ -1,0 +1,45 @@
+#main {
+    background-image: url(../images/main.jpg);
+    background-repeat:no-repeat;
+    background-position: 50% 0%;
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    background-color: black;
+}
+
+h1, h3 {
+    position: relative;
+    top: 30vh;
+    font-size: 50px;
+    line-height: 10px;
+    text-align: center;
+    font-family: 'Calibri';
+    color: yellowgreen;
+}
+
+.tiles_row {
+    position: relative;
+    top: 45vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20vw;
+}
+
+.tile {
+    width: 20vh; 
+    height: 20vh; 
+    
+}
+
+.tile img {
+    width: 100%; 
+    height: 100%; 
+    transition: transform 0.2s; 
+}
+
+.tile:hover img {
+    transform: scale(1.1); 
+    cursor: pointer; 
+}
