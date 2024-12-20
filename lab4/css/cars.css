@@ -1,0 +1,86 @@
+#impreza {
+    background-image: url(../images/impreza.jpg);
+    background-repeat:no-repeat;
+    background-position: 50% 0%;
+    font-family: Arial, sans-serif;
+}
+
+#lancer {
+    background-image: url(../images/lancer.jpg);
+    background-repeat:no-repeat;
+    background-position: 50% 0%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 20px; 
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    color: yellowgreen;
+    padding: 20px; 
+}
+
+.area {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+}
+
+.tile {
+    padding: 20px; 
+    border: 1px solid black; 
+}
+
+.tile_name {
+    color: yellowgreen;
+    font-size: 20px;
+    line-height: 1.5; 
+}
+
+.paragraph {
+    color: yellowgreen;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    color: yellowgreen;
+    font-weight: bold; 
+}
+
+td {
+    color: yellowgreen;
+    text-align: left;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+th {
+    color: yellowgreen;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.sub_form > textarea {
+    width: 100%;
+    height: 15vh;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.sub_form > .error {
+    font-size: 18px;
+    color: red;
+}
