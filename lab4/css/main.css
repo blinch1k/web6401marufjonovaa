@@ -1,0 +1,45 @@
+#main {
+    background-image: url(../images/main.jpg);
+    background-repeat:no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    background-position: 0 -15%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1, h3 {
+    text-align: center; 
+    font-size: 50px;
+    line-height: 10px;
+    text-align: center;
+    font-family: 'Calibri';
+    color: yellowgreen;
+}
+
+.tiles_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15vw;
+}
+
+.tile {
+    width: 20vh; 
+    height: 20vh; 
+}
+
+.tile img {
+    width: 100%; 
+    height: 100%; 
+    transition: transform 0.2s; 
+}
+
+.tile:hover img {
+    transform: scale(1.1); 
+    cursor: pointer; 
+}
