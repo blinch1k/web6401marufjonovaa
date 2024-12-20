@@ -1,0 +1,81 @@
+#impreza {
+    background-image: url(../images/impreza.jpg);
+    background-repeat:no-repeat;
+    background-position: 50% 0%;
+    font-family: Arial, sans-serif;
+}
+
+#lancer {
+    background-image: url(../images/lancer.jpg);
+    background-repeat:no-repeat;
+    background-position: 50% 0%;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    position: relative;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    font-family: 'Calibri';
+    color: yellowgreen;
+
+}
+
+.tile_name {
+    color: yellowgreen;
+    position: relative;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: left;
+    font-family: 'Calibri';
+}
+
+.paragraph {
+    color: yellowgreen;
+    position: relative;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Calibri';
+}
+
+caption {
+    color: yellowgreen;
+}
+
+table {
+    position: relative;
+    left: 57%;
+    width: 650px;
+    border-top: 7px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+#tlancer {
+    position: relative;
+    left: 0%;
+    width: 650px;
+    border-top: 7px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+  
+td {
+    color: yellowgreen;
+    text-align: left;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+th {
+    color:yellowgreen;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+}
+
